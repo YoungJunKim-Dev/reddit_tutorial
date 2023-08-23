@@ -23,6 +23,9 @@ class Pallete {
       backgroundColor: drawerColor,
     ),
     primaryColor: redColor,
+    // ignore: deprecated_member_use
+    backgroundColor: drawerColor,
+
     // colorScheme: ColorScheme(background: drawerColor), // will be used as alternative background color
   );
 
@@ -40,6 +43,9 @@ class Pallete {
       backgroundColor: whiteColor,
     ),
     primaryColor: redColor,
+    // ignore: deprecated_member_use
+    backgroundColor: whiteColor,
+
     // colorScheme: ColorScheme(background: whiteColor),
   );
 }
